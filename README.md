@@ -1,1 +1,1 @@
-# hugolify-theme-products-categpries
+# hugolify-theme-products-categories
