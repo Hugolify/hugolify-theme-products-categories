@@ -1,0 +1,8 @@
+products_categories:
+  all: All products categories
+  discover: Discover category
+  latest: Latest products categories
+  more: Discover more products categories
+  title:
+    one: Category
+    other: Categories
