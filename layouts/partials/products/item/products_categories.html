@@ -1,5 +1,5 @@
 {{ with .GetTerms "products_categories" }}
   {{ range . }}
-    <p class="products_categories">{{ partial "func/PrepareHTML" .Title }}</p>
+    <span class="category" itemprop="category">{{ partial "func/PrepareHTML" .Title }}</span>
   {{ end }}
 {{ end }}
