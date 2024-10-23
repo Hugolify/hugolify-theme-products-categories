@@ -20,4 +20,5 @@ taxonomies:
 params:
   admin:
     collections:
-      products_categories: true
+      products_categories:
+        enable: true
