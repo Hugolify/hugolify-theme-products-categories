@@ -1,7 +1,7 @@
 {{ with .GetTerms "products_categories" }}
   {{ range . }}
     <p>
-      <a href="{{ .Permalink }}">{{ partial "func/PrepareHTML" .Title }}</a>
+      <a href="{{ .Permalink }}">{{ partial "func/PrepareHTML.html" .Title }}</a>
     </p>
   {{ end }}
 {{ end }}
