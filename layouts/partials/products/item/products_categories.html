@@ -1,5 +1,10 @@
+{{- /* Microdata on hugolify-theme v1 only, where the item around this one
+       carries an itemscope. v2 describes the page in JSON-LD
+       (func/GetSchema*.html) and its items carry none: the property would
+       belong to no item. */ -}}
+{{- $microdata := not (templates.Exists "partials/func/GetSchemaWebPage.html") -}}
 {{ with .GetTerms "products_categories" }}
   {{ range . }}
-    <span class="category" itemprop="category">{{ partial "func/PrepareHTML.html" .Title }}</span>
+    <span class="category" {{- if $microdata }} itemprop="category"{{ end }}>{{ partial "func/PrepareHTML.html" .Title }}</span>
   {{ end }}
 {{ end }}
