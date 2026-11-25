@@ -1,0 +1,11 @@
+/* components/products-category.css */
+/*
+ * Usage: <article class="item products_category">
+ */
+@layer components {
+  .products_category {
+    .btn {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/* css/modules/products-categories.css: hugolify-theme-products-categories entry point */
+
+/* Tokens */
+@import '../tokens/products-categories.css';
+
+/* Components */
+@import '../components/products-category.css';
+@import '../components/products-categories.css';
+
+/* Pages */
+@import '../pages/products-category.css';
+@import '../pages/products-categories.css';
